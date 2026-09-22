@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --color-cream: #FFF8F3;
+  --color-pink: #F7C8D8;
+  --color-peach: #F8D8C0;
+  --color-lavender: #DDD6F3;
+  --color-sage: #D8E8D5;
+  --color-soft-blue: #D8E8F3;
+  --color-dark: #3F3A3A;
+  --color-muted: #756D6D;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(247, 200, 216, 0.3) transparent;
+}
+
+*::-webkit-scrollbar {
+  width: 6px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgba(247, 200, 216, 0.3);
+  border-radius: 3px;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background-color: #FFF8F3;
+  color: #3F3A3A;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Smooth transitions for all interactive elements */
+button, a, input, select {
+  transition: all 0.2s ease;
+}
+
+/* Recharts tooltip customization */
+.recharts-default-tooltip {
+  border-radius: 12px !important;
+  border: 1px solid rgba(247, 200, 216, 0.3) !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08) !important;
+}
+
+/* Animation for cards */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.4s ease-out;
+}
