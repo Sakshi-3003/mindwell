@@ -3,9 +3,6 @@
 > Turning wellbeing data into actionable support
 
 An interactive, evidence-informed data dashboard that transforms survey data on occupational stress and psychological well-being into clear, actionable insights for program teams working on teacher wellbeing.
-
-
-
 ---
 
 ## 🎯 What It Does
@@ -47,7 +44,6 @@ Self-reported survey data should not be interpreted as a clinical diagnosis.
 | Lucide React | Icons |
 | React Router | Navigation |
 
-**No paid APIs. No database. No backend. Fully client-side.**
 
 ---
 
@@ -71,7 +67,7 @@ npm install
 npm run dev
 ```
 
-The app will be available at `http://localhost:5173`
+The app will be available at `https://mindwell-indol.vercel.app`
 
 ### Build for Production
 
@@ -103,19 +99,6 @@ mindwell/
 └── vite.config.ts
 ```
 
----
-
-## 🌐 Deployment (Vercel)
-
-1. Push this repository to GitHub
-2. Go to [vercel.com](https://vercel.com) and sign in with GitHub
-3. Click **"New Project"** → Import this repository
-4. Framework preset: **Vite**
-5. Click **Deploy**
-
-No environment variables needed. No API keys required.
-
----
 
 ## 📄 Pages
 
@@ -127,17 +110,6 @@ No environment variables needed. No API keys required.
 | **Demographics** | Breakdowns by gender, age, title, experience with interactive explorer |
 | **Support & Action** | Support Priority Indicator, focus areas, transparent methodology |
 | **Data & Methodology** | Data source, disclaimers, processing steps, construct definitions |
-
----
-
-## ⚖️ Disclaimers
-
-- This dashboard uses a **publicly available dataset** from Mendeley Data
-- It is **not** an official product of any organization
-- It does **not** use confidential data from VOPA or any other entity
-- The Support Priority Indicator is an **analytical construct**, not a clinical risk score
-- All findings are **descriptive observations**, not causal claims
-- Self-reported survey data should **not** be interpreted as clinical diagnoses
 
 ---
 
