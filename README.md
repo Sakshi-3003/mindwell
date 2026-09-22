@@ -4,7 +4,7 @@
 
 An interactive, evidence-informed data dashboard that transforms survey data on occupational stress and psychological well-being into clear, actionable insights for program teams working on teacher wellbeing.
 
-**⚠️ This is an independent portfolio project. It is not affiliated with VOPA or any organization's confidential data.**
+
 
 ---
 
@@ -146,9 +146,3 @@ No environment variables needed. No API keys required.
 Dataset: CC BY 4.0 (Mendeley Data)
 
 Dashboard code: MIT
-
----
-
-## 👤 Author
-
-Built as an independent portfolio project demonstrating data analytics and visualization skills for social-impact applications.
